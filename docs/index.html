@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-base-path="..">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazemi Docs - JavaScript sources, extractors, syntax, and extension examples.">
+    <meta name="theme-color" content="#ff7a45">
+    <title>Kazemi Docs</title>
+    <link rel="icon" type="image/png" href="../Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html#home" class="logo">
+                <img src="../Logo.png" alt="Kazemi" class="logo-icon">
+                <span class="logo-text">Kazemi</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="../index.html#features" data-i18n="nav.features">Features</a></li>
+                <li><a href="../index.html#download" data-i18n="nav.download">Download</a></li>
+                <li><a href="./index.html" data-i18n="nav.docs">Docs</a></li>
+                <li><a href="../index.html#support" data-i18n="nav.support">Support</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <div class="language-selector">
+                    <button class="lang-btn" id="langToggle">
+                        <span class="lang-icon">LANG</span>
+                        <span class="lang-current">EN</span>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button data-lang="en">English</button>
+                        <button data-lang="es">Español</button>
+                        <button data-lang="zh">中文</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-orb hero-orb-left"></div>
+            <div class="hero-orb hero-orb-right"></div>
+            <div class="container">
+                <div class="hero-copy" style="max-width: 860px;">
+                    <span class="eyebrow" data-i18n="docsPage.kicker">Developer Docs</span>
+                    <h1 class="hero-title" style="font-size: clamp(3.8rem, 8vw, 5.8rem);" data-i18n="docsPage.title">Kazemi Docs</h1>
+                    <p class="hero-subtitle" data-i18n="docsPage.subtitle">JavaScript sources, extractors and extension syntax</p>
+                    <p class="hero-description" data-i18n="docsPage.description">Everything you need to understand the current extension contract, build compatible sources, and apply practical implementation patterns.</p>
+                    <div class="hero-actions">
+                        <a href="#source-structure" class="btn btn-primary" data-i18n="docsPage.primaryCta">Start with Source Extensions</a>
+                        <a href="./examples.html" class="btn btn-secondary" data-i18n="docsPage.secondaryCta">View Examples</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow" data-i18n="docsPage.overview.kicker">Overview</span>
+                    <h2 class="section-title" data-i18n="docsPage.overview.title">How Kazemi extensions are organized</h2>
+                    <p class="section-subtitle" data-i18n="docsPage.overview.subtitle">Sources provide catalogs and metadata. Extractors resolve playable video URLs from hosts or embed pages.</p>
+                </div>
+
+                <div class="features-grid">
+                    <article class="feature-card feature-card-wide">
+                        <div class="feature-icon">🧩</div>
+                        <h3 data-i18n="docsPage.overview.cards.sources.title">Source extensions</h3>
+                        <p data-i18n="docsPage.overview.cards.sources.description">A source exposes discovery functions like popular, latest and search, then returns detailed items, children and mirrors.</p>
+                    </article>
+                    <article class="feature-card feature-card-wide">
+                        <div class="feature-icon">🔓</div>
+                        <h3 data-i18n="docsPage.overview.cards.extractors.title">Extractor extensions</h3>
+                        <p data-i18n="docsPage.overview.cards.extractors.description">An extractor takes a host URL such as an embed page and resolves it into final playable streams like MP4 or HLS.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="guides">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow">Deep Dives</span>
+                    <h2 class="section-title">Pick a docs section</h2>
+                    <p class="section-subtitle">Open focused pages for implementation details and copy-paste snippets.</p>
+                </div>
+                <div class="guides-grid">
+                    <a href="./sources.html" class="guide-card">
+                        <div class="guide-icon">📚</div>
+                        <h3>Sources</h3>
+                        <p>Contract, required fields, and return shapes for source extensions.</p>
+                    </a>
+                    <a href="./extractors.html" class="guide-card">
+                        <div class="guide-icon">🔓</div>
+                        <h3>Extractors</h3>
+                        <p>Domains, `extractVideos(url)`, and stream output conventions.</p>
+                    </a>
+                    <a href="./examples.html" class="guide-card">
+                        <div class="guide-icon">🧪</div>
+                        <h3>Examples</h3>
+                        <p>Minimal source and extractor examples with neutral naming.</p>
+                    </a>
+                    <a href="./examples.html" class="guide-card">
+                        <div class="guide-icon">🛠️</div>
+                        <h3>Patterns</h3>
+                        <p>Practical conventions for selectors, pagination, mirrors and safe fallbacks.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="source-structure" class="guides">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow" data-i18n="docsPage.source.kicker">Source Syntax</span>
+                    <h2 class="section-title" data-i18n="docsPage.source.title">Basic source structure</h2>
+                    <p class="section-subtitle" data-i18n="docsPage.source.subtitle">Every source starts with a `SOURCE` object plus a small set of async functions.</p>
+                </div>
+
+                <div class="story-points">
+                    <article class="story-card">
+                        <h3 data-i18n="docsPage.source.cards.meta.title">1. Define `SOURCE`</h3>
+                        <p data-i18n="docsPage.source.cards.meta.description">Include stable metadata like id, name, baseUrl, language, version and optional iconUrl/contentKind.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3 data-i18n="docsPage.source.cards.browse.title">2. Add browse functions</h3>
+                        <p data-i18n="docsPage.source.cards.browse.description">Implement `fetchPopular`, `fetchLatest` and `fetchSearch` when available so the app can build lists and search results.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3 data-i18n="docsPage.source.cards.detail.title">3. Return detail and children</h3>
+                        <p data-i18n="docsPage.source.cards.detail.description">Use `fetchItemDetails(id)` and `fetchChildren(itemId)` to describe the media item and its playable parts.</p>
+                    </article>
+                </div>
+
+                <div class="modal-content" style="margin-top: 26px;">
+                    <div class="modal-body">
+<pre><code>const SOURCE = {
+  id: "example",
+  name: "Example Source",
+  baseUrl: "https://example.com",
+  language: "en",
+  version: "1.0.0",
+  iconUrl: "https://example.com/favicon.ico",
+  contentKind: "personal-media"
+};
+
+async function fetchPopular(page) {
+  return [];
+}
+
+async function fetchLatest(page) {
+  return [];
+}
+
+async function fetchSearch(query, page, filters) {
+  return [];
+}
+
+async function fetchItemDetails(id) {
+  return {
+    id,
+    title: "Family Archive",
+    description: "Sample item returned by the source.",
+    imageUrl: "",
+    genres: ["Family"],
+    status: "unknown",
+    type: "video"
+  };
+}
+
+async function fetchChildren(itemId) {
+  return [
+    {
+      id: itemId + ":part-1",
+      number: 1,
+      title: "Part 1"
+    }
+  ];
+}
+
+async function fetchVideoList(itemId, childId) {
+  return [
+    {
+      url: "https://host.example/embed/123",
+      quality: "default",
+      originalUrl: "https://host.example/embed/123"
+    }
+  ];
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="workflow">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow" data-i18n="docsPage.functions.kicker">Functions</span>
+                    <h2 class="section-title" data-i18n="docsPage.functions.title">Current source contract</h2>
+                    <p class="section-subtitle" data-i18n="docsPage.functions.subtitle">These are the main functions the runtime expects today.</p>
+                </div>
+
+                <div class="workflow-grid">
+                    <article class="workflow-card">
+                        <span class="workflow-step">01</span>
+                        <h3>`fetchPopular`, `fetchLatest`, `fetchSearch`</h3>
+                        <p data-i18n="docsPage.functions.cards.discovery">Return lightweight lists of media items for home sections and search results.</p>
+                    </article>
+                    <article class="workflow-card">
+                        <span class="workflow-step">02</span>
+                        <h3>`fetchItemDetails`, `fetchChildren`</h3>
+                        <p data-i18n="docsPage.functions.cards.detail">Return the full item plus its children, parts or entries using neutral naming.</p>
+                    </article>
+                    <article class="workflow-card">
+                        <span class="workflow-step">03</span>
+                        <h3>`fetchVideoList`</h3>
+                        <p data-i18n="docsPage.functions.cards.video">Return candidate mirrors or direct streams. Extractors may be used later to resolve those URLs.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="download">
+            <div class="container download-shell">
+                <div class="download-copy">
+                    <span class="eyebrow" data-i18n="docsPage.extractors.kicker">Extractor Syntax</span>
+                    <h2 class="section-title section-title-left" data-i18n="docsPage.extractors.title">Basic extractor structure</h2>
+                    <p class="section-subtitle section-subtitle-left" data-i18n="docsPage.extractors.subtitle">Extractors are focused: detect supported domains and resolve a host URL into playable streams.</p>
+                </div>
+
+                <div class="modal-content">
+                    <div class="modal-body">
+<pre><code>const EXTRACTOR = {
+  id: "example-host",
+  name: "Example Host",
+  domains: ["example-host.com", "embed.example-host.com"],
+  version: "1.0.0"
+};
+
+async function extractVideos(url) {
+  return [
+    {
+      url: "https://cdn.example-host.com/master.m3u8",
+      quality: "1080p",
+      headers: {
+        Referer: url
+      }
+    }
+  ];
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-shell">
+            <div class="footer-brand">
+                <img src="../Logo.png" alt="Kazemi" class="footer-logo">
+                <div>
+                    <span class="footer-text">Kazemi</span>
+                    <p class="footer-tagline" data-i18n="docsPage.footerTagline">Extension and integration documentation for Kazemi.</p>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://github.com/kazemiapp/Kazemi" target="_blank" data-i18n="footer.links.github">GitHub</a>
+                <a href="../index.html#download" data-i18n="nav.download">Download</a>
+            </div>
+        </div>
+        <div class="container">
+            <p class="footer-copyright" data-i18n="footer.copyright">© 2026 Kazemi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

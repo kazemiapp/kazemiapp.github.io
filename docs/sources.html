@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-base-path="..">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazemi Docs - Source extension syntax and function contract.">
+    <meta name="theme-color" content="#ff7a45">
+    <title>Kazemi Docs - Sources</title>
+    <link rel="icon" type="image/png" href="../Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="./index.html" class="logo">
+                <img src="../Logo.png" alt="Kazemi" class="logo-icon">
+                <span class="logo-text">Kazemi</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="./index.html" data-i18n="nav.docs">Docs</a></li>
+                <li><a href="./sources.html">Sources</a></li>
+                <li><a href="./extractors.html">Extractors</a></li>
+                <li><a href="./examples.html">Examples</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-copy" style="max-width: 860px;">
+                    <span class="eyebrow">Source Docs</span>
+                    <h1 class="hero-title" style="font-size: clamp(3.2rem, 7vw, 5rem);">Source Extensions</h1>
+                    <p class="hero-subtitle">Contract for catalog providers</p>
+                    <p class="hero-description">Sources expose discovery lists and item metadata, then return children and mirrors for playback.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="workflow">
+            <div class="container">
+                <div class="workflow-grid">
+                    <article class="workflow-card">
+                        <span class="workflow-step">01</span>
+                        <h3>`SOURCE` object</h3>
+                        <p>Required core: `id`, `name`, `baseUrl`, `language`, `version`. Optional: `iconUrl`, `contentKind`.</p>
+                    </article>
+                    <article class="workflow-card">
+                        <span class="workflow-step">02</span>
+                        <h3>Discovery functions</h3>
+                        <p>Implement `fetchPopular(page)`, `fetchLatest(page)` and `fetchSearch(query, page, filters)` when available.</p>
+                    </article>
+                    <article class="workflow-card">
+                        <span class="workflow-step">03</span>
+                        <h3>Playback chain</h3>
+                        <p>`fetchItemDetails(id)` -> `fetchChildren(itemId)` -> `fetchVideoList(itemId, childId)`.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="guides">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-body">
+<pre><code>const SOURCE = {
+  id: "my-source",
+  name: "My Source",
+  baseUrl: "https://example.com",
+  language: "en",
+  version: "1.0.0",
+  iconUrl: "https://example.com/favicon.ico",
+  contentKind: "personal-media"
+};
+
+async function fetchItemDetails(id) {
+  return {
+    id,
+    title: "Family Trip 2024",
+    description: "Catalog item description",
+    imageUrl: "https://example.com/cover.jpg",
+    genres: ["Travel"],
+    status: "unknown",
+    type: "video"
+  };
+}
+
+async function fetchChildren(itemId) {
+  return [{ id: itemId + ":clip-1", number: 1, title: "Clip 1" }];
+}
+
+async function fetchVideoList(itemId, childId) {
+  return [{ url: "https://host.example/embed/abc", quality: "default" }];
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

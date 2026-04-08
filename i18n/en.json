@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "title": "Kazemi - Your Personal Media Library",
+    "description": "Kazemi - A modern media player and library manager for iOS & macOS. Organize your video collection with a beautiful, intuitive interface."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Download",
+    "docs": "Docs",
+    "guides": "Guides",
+    "support": "Support"
+  },
+  "hero": {
+    "title": "Kazemi",
+    "subtitle": "Your Personal Media Library",
+    "kicker": "Personal video library for iPhone, iPad and Mac",
+    "description": "A modern media player and library manager for iOS and macOS. Organize your personal video collection with a beautiful, intuitive interface.",
+    "downloadButton": "Download Now",
+    "secondaryButton": "Explore Guides",
+    "altStore": "Available on AltStore",
+    "note": "Built for your own media collection, local folders, and user-managed extensions.",
+    "mockup": {
+      "desktop": {
+        "tabs": {
+          "library": "Library",
+          "recent": "Recent",
+          "history": "History",
+          "explore": "Explore"
+        },
+        "heading": "Library",
+        "emptyTitle": "A place for your personal collection",
+        "emptyDescription": "Home videos, trips, family events and saved downloads in one calm, native interface."
+      },
+      "phone": {
+        "heading": "Library",
+        "search": "Search your library",
+        "filters": {
+          "all": "All",
+          "family": "Family",
+          "travel": "Travel"
+        },
+        "cards": {
+          "wedding": {
+            "title": "Ana & Carlos Wedding",
+            "meta": "Event video · 3 clips",
+            "tags": "Family · Celebration"
+          },
+          "birthday": {
+            "title": "Grandpa's 70th Birthday",
+            "meta": "Event video · 5 clips",
+            "tags": "Family · Memories"
+          },
+          "trip": {
+            "title": "Summer Trip to Kyoto",
+            "meta": "Travel album · 8 clips",
+            "tags": "Travel · Highlights"
+          }
+        },
+        "tabbar": {
+          "library": "Library",
+          "recent": "Recent",
+          "history": "History",
+          "explore": "Explore",
+          "settings": "Settings"
+        }
+      }
+    }
+  },
+  "story": {
+    "kicker": "Why Kazemi",
+    "title": "Built around your collection, not someone else’s platform",
+    "description": "Kazemi is designed to feel like a real home for your media: clean browsing, polished playback, local folders, downloads, and optional user-managed extensions when you need more flexibility.",
+    "points": {
+      "ownership": {
+        "title": "Own your library",
+        "description": "Keep personal videos, archives, courses, films, or imported catalogs in one interface that feels native on Apple devices."
+      },
+      "design": {
+        "title": "Designed like an app, not a file browser",
+        "description": "Covers, metadata, history, subtitles, and downloads are presented in a clean interface instead of raw folders and filenames."
+      },
+      "control": {
+        "title": "Flexible when you want it",
+        "description": "Kazemi supports local media first, while still allowing user-imported JavaScript extensions for custom sources and extractors."
+      }
+    }
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Everything you need for the perfect streaming experience",
+    "items": {
+      "local": {
+        "title": "Local Media Library",
+        "description": "Organize your video files in folders. Auto-detects items, clips, and subtitles."
+      },
+      "extensions": {
+        "title": "JS Extension System",
+        "description": "Customize your experience with JavaScript extensions. Secure, sandboxed, and easy to import."
+      },
+      "browse": {
+        "title": "Browse & Filter",
+        "description": "Search and filter by genre, type, and more. Each source has its own catalog and filters."
+      },
+      "library": {
+        "title": "Personal Library",
+        "description": "Bookmark your favorite titles and track what you've watched. Your library syncs across devices."
+      },
+      "downloads": {
+        "title": "Background Downloads",
+        "description": "Save content for offline viewing. HLS and MP4 downloads with progress tracking."
+      },
+      "subtitles": {
+        "title": "External Subtitles",
+        "description": "VTT subtitle support with language selection. Sync perfectly with your content."
+      },
+      "theme": {
+        "title": "Dark/Light Theme",
+        "description": "Follows system appearance. Beautiful in any lighting condition."
+      },
+      "languages": {
+        "title": "Multi-language UI",
+        "description": "Available in English, Spanish, and Chinese. More languages coming soon."
+      }
+    }
+  },
+  "download": {
+    "title": "Download Kazemi",
+    "subtitle": "Get started in minutes",
+    "altstore": {
+      "title": "Install with AltStore",
+      "description": "Click below to install Kazemi directly with AltStore.",
+      "button": "Install with AltStore"
+    },
+    "ipa": {
+      "title": "Manual Download",
+      "description": "Download the IPA and sideload using AltStore, Sideloadly, or any compatible tool.",
+      "button": "Download IPA"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "items": {
+        "ios": "iOS 16.0 or later",
+        "macos": "macOS 13.0 or later",
+        "altstore": "AltStore app (for AltStore installation)"
+      }
+    }
+  },
+  "workflow": {
+    "kicker": "How it works",
+    "title": "A simple flow that stays under your control",
+    "subtitle": "Start with local media, expand with user-managed extensions only if you need them.",
+    "steps": {
+      "pick": {
+        "title": "Pick a folder",
+        "description": "Select a local folder on your device and let Kazemi organize videos, metadata, covers, and subtitles automatically."
+      },
+      "import": {
+        "title": "Import what you need",
+        "description": "Add JavaScript sources or extractors manually when you want additional catalogs or custom playback handling."
+      },
+      "watch": {
+        "title": "Watch anywhere",
+        "description": "Play online or offline, keep history, manage downloads, and switch subtitle tracks without leaving the app."
+      }
+    }
+  },
+  "docsTeaser": {
+    "kicker": "Docs",
+    "title": "Need the extension syntax?",
+    "description": "The full JavaScript contract now lives in a dedicated Docs area, including source structure, extractor syntax, supported functions and implementation patterns.",
+    "cards": {
+      "sources": {
+        "title": "Source examples",
+        "description": "See the shape of `SOURCE`, list functions, details, children and mirrors."
+      },
+      "extractors": {
+        "title": "Extractor examples",
+        "description": "Understand how host resolvers declare domains and return streams."
+      },
+      "patterns": {
+        "title": "Implementation patterns",
+        "description": "Review practical patterns for stable parsing, errors, and resilient mirror handling."
+      }
+    },
+    "button": "Open Docs"
+  },
+  "docsPage": {
+    "kicker": "Developer Docs",
+    "title": "Kazemi Docs",
+    "subtitle": "JavaScript sources, extractors and extension syntax",
+    "description": "Everything you need to understand the current extension contract, build compatible sources, and apply practical implementation patterns.",
+    "primaryCta": "Start with Source Extensions",
+    "secondaryCta": "View Examples",
+    "overview": {
+      "kicker": "Overview",
+      "title": "How Kazemi extensions are organized",
+      "subtitle": "Sources provide catalogs and metadata. Extractors resolve playable video URLs from hosts or embed pages.",
+      "cards": {
+        "sources": {
+          "title": "Source extensions",
+          "description": "A source exposes discovery functions like popular, latest and search, then returns detailed items, children and mirrors."
+        },
+        "extractors": {
+          "title": "Extractor extensions",
+          "description": "An extractor takes a host URL such as an embed page and resolves it into final playable streams like MP4 or HLS."
+        }
+      }
+    },
+    "source": {
+      "kicker": "Source Syntax",
+      "title": "Basic source structure",
+      "subtitle": "Every source starts with a `SOURCE` object plus a small set of async functions.",
+      "cards": {
+        "meta": {
+          "title": "1. Define `SOURCE`",
+          "description": "Include stable metadata like id, name, baseUrl, language, version and optional iconUrl/contentKind."
+        },
+        "browse": {
+          "title": "2. Add browse functions",
+          "description": "Implement `fetchPopular`, `fetchLatest` and `fetchSearch` when available so the app can build lists and search results."
+        },
+        "detail": {
+          "title": "3. Return detail and children",
+          "description": "Use `fetchItemDetails(id)` and `fetchChildren(itemId)` to describe the media item and its playable parts."
+        }
+      }
+    },
+    "functions": {
+      "kicker": "Functions",
+      "title": "Current source contract",
+      "subtitle": "These are the main functions the runtime expects today.",
+      "cards": {
+        "discovery": "Return lightweight lists of media items for home sections and search results.",
+        "detail": "Return the full item plus its children, parts or entries using neutral naming.",
+        "video": "Return candidate mirrors or direct streams. Extractors may be used later to resolve those URLs."
+      }
+    },
+    "extractors": {
+      "kicker": "Extractor Syntax",
+      "title": "Basic extractor structure",
+      "subtitle": "Extractors are focused: detect supported domains and resolve a host URL into playable streams."
+    },
+    "footerTagline": "Extension and integration documentation for Kazemi."
+  },
+  "guides": {
+    "title": "Guides",
+    "subtitle": "Learn how to get the most out of Kazemi",
+    "items": {
+      "gettingStarted": {
+        "title": "Getting Started",
+        "description": "Learn the basics of Kazemi and how to set up your first source."
+      },
+      "importing": {
+        "title": "Importing Extensions",
+        "description": "Step-by-step guide to import and manage JavaScript extensions."
+      },
+      "localLibrary": {
+        "title": "Local Library",
+        "description": "Set up your local media folder and organize your offline content."
+      },
+      "downloads": {
+        "title": "Downloads",
+        "description": "Download content for offline viewing and manage your downloads."
+      },
+      "subtitles": {
+        "title": "Subtitles",
+        "description": "Configure and manage external subtitle files for your content."
+      },
+      "troubleshooting": {
+        "title": "Troubleshooting",
+        "description": "Common issues and solutions to help you get back on track."
+      }
+    },
+    "gettingStarted": {
+      "title": "Getting Started with Kazemi",
+      "steps": {
+        "install": {
+          "title": "Step 1: Install Kazemi",
+          "desc": "Download Kazemi from our <a href=\"#download\">Download section</a> and install it via AltStore or sideloading."
+        },
+        "open": {
+          "title": "Step 2: Open the App",
+          "desc": "Launch Kazemi from your home screen. On first launch, the app will request notification permissions (optional)."
+        },
+        "explore": {
+          "title": "Step 3: Explore the Interface",
+          "desc": "Kazemi has 5 main tabs:",
+          "tabs": ["Sources - Browse available content sources", "Library - Your saved titles and bookmarks", "Updates - New additions from your library", "History - Your watch history", "Settings - App preferences and extensions"]
+        },
+        "extensions": {
+          "title": "Step 4: Add Extensions",
+          "desc": "Go to Settings and import JavaScript extensions to add new content sources. See our <a href=\"#importing-extensions\">Importing Extensions</a> guide for details."
+        }
+      }
+    },
+    "importingExtensions": {
+      "title": "Importing Extensions",
+      "intro": "Kazemi uses a JavaScript extension system. Extensions are plain .js files that add new functionality to the app.",
+      "types": ["Source Extensions - Browse catalogs from different websites", "Extractor Extensions - Resolve video URLs from embed pages"],
+      "steps": {
+        "find": {
+          "title": "Step 1: Find an Extension",
+          "desc": "Extensions are .js files that can be shared via direct download links or local files."
+        },
+        "settings": {
+          "title": "Step 2: Open Settings",
+          "desc": "In Kazemi, navigate to the Settings tab and find the Extensions section."
+        },
+        "import": {
+          "title": "Step 3: Import",
+          "desc": "Choose between:",
+          "options": ["Import from URL - Paste a direct link to the .js file", "Import from File - Select a .js file from your device"]
+        },
+        "verify": {
+          "title": "Step 4: Verify",
+          "desc": "The extension will be validated and added to your installed extensions list. It's now ready to use!"
+        }
+      },
+      "managing": "Managing Extensions",
+      "managingDesc": "You can disable or remove extensions at any time from the Settings menu. Removed extensions are permanently deleted from the app."
+    },
+    "localLibrary": {
+      "folderStructure": {
+        "root": "MyMedia/",
+        "wedding": {
+          "folder": "Ana & Carlos Wedding/",
+          "files": ["ceremony.mp4", "party.mp4", "cover.jpg"]
+        },
+        "birthday": {
+          "folder": "50th Birthday/",
+          "files": ["video.mp4"]
+        }
+      },
+      "steps": {
+        "prepare": "Step 1: Prepare Your Folder",
+        "enable": "Step 2: Enable Local Library",
+        "select": "Step 3: Select Folder",
+        "browse": "Step 4: Browse"
+      },
+      "enableDesc": "Go to Settings → Local Library and toggle it ON.",
+      "selectDesc": "Tap \"Select Folder\" and navigate to your media folder. Grant permission when prompted.",
+      "browseDesc": "Your local content will appear in the Sources tab under \"Local\". Tap to browse and play!",
+      "infoJson": "Optional: info.json",
+      "infoJsonDesc": "Add an <code>info.json</code> file in each media folder for metadata like title, synopsis, tags, and year."
+    },
+    "downloads": {
+      "title": "Downloads",
+      "intro": "Download content for offline viewing with Kazemi's built-in download manager.",
+      "steps": {
+        "find": {
+          "title": "Step 1: Find Content",
+          "desc": "Browse to the item you want to download."
+        },
+        "tap": {
+          "title": "Step 2: Tap Download",
+          "desc": "On the item detail page, tap the download button (↓) in the toolbar."
+        },
+        "quality": {
+          "title": "Step 3: Choose Quality",
+          "desc": "Select your preferred video quality and mirror. Downloads with an extractor icon are recommended."
+        },
+        "monitor": {
+          "title": "Step 4: Monitor Progress",
+          "desc": "Check download progress in the Downloads view (Settings → Downloads). Downloads continue in the background!"
+        }
+      },
+      "managing": "Managing Downloads",
+      "managingItems": ["Play - Tap a completed download to play offline", "Delete - Swipe left or long-press to remove downloads", "Batch Download - Select multiple items and download them at once"]
+    },
+    "subtitles": {
+      "title": "Subtitles",
+      "intro": "Kazemi supports external VTT subtitle files for your content.",
+      "online": "For Online Content",
+      "onlineDesc": "Many sources provide subtitles automatically. When available, you'll see a CC button in the player to toggle subtitles on/off.",
+      "local": "For Local Content",
+      "localSteps": {
+        "name": {
+          "title": "Step 1: Name Your Files",
+          "desc": "Name subtitle files the same as your video files, with a .vtt extension:"
+        },
+        "place": {
+          "title": "Step 2: Place in Same Folder",
+          "desc": "Keep the subtitle file in the same folder as the video."
+        },
+        "detect": {
+          "title": "Step 3: Automatic Detection",
+          "desc": "Kazemi will automatically detect and load matching subtitle files when you play the video."
+        }
+      },
+      "controls": "Subtitle Controls",
+      "controlsDesc": "While playing, tap the CC button to:",
+      "controlsItems": ["Enable/disable subtitles", "Switch between available languages"]
+    },
+    "troubleshooting": {
+      "title": "Troubleshooting",
+      "intro": "Having issues? Here are some common solutions.",
+      "wontOpen": {
+        "title": "App Won't Open",
+        "items": ["Restart your device", "Reinstall via AltStore", "Check if your developer certificate is still valid"]
+      },
+      "extensionsNotLoading": {
+        "title": "Extensions Not Loading",
+        "items": ["Check the .js file syntax", "Ensure the extension follows the Kazemi extension format", "Try re-importing the extension"]
+      },
+      "videoWontPlay": {
+        "title": "Video Won't Play",
+        "items": ["Check your internet connection", "Try a different mirror/source", "The extractor for that server may be unavailable"]
+      },
+      "downloadsFailing": {
+        "title": "Downloads Failing",
+        "items": ["Check available storage space", "Ensure the app has background app refresh enabled", "Try downloading a different quality"]
+      },
+      "localLibraryNotScanning": {
+        "title": "Local Library Not Scanning",
+        "items": ["Verify folder permissions in Settings", "Check that files are in supported formats (.mp4, .m4v, .mkv, .mov)", "Try re-selecting the folder"]
+      },
+      "stillHavingIssues": "Still Having Issues?",
+      "stillHavingIssuesDesc": "Visit our <a href=\"https://github.com/kazemiapp/Kazemi/issues\" target=\"_blank\">GitHub Issues</a> page to report bugs or request help."
+    }
+  },
+  "support": {
+    "title": "Support Kazemi",
+    "subtitle": "Help us grow",
+    "description": "Your support helps cover development costs, App Store release fees, and brings Kazemi to more platforms including Android.",
+    "tiers": {
+      "supporter": {
+        "title": "Supporter / Café ($5)",
+        "description": "Your name in the in-app Wall of Fame (Settings/About) plus a special role or badge in Discord/community."
+      },
+      "betaExplorer": {
+        "title": "Beta Explorer ($10)",
+        "description": "Direct TestFlight invite before everyone else, exclusive polls, and a shoutout on TikTok/social updates."
+      },
+      "featureArchitect": {
+        "title": "Feature Architect ($20)",
+        "description": "Top priority in feature requests (roadmap) and highlighted credits with a special icon (crown/star)."
+      }
+    },
+    "donateButton": "Donate via Ko-fi"
+  },
+  "footer": {
+    "copyright": "© 2026 Kazemi. All rights reserved.",
+    "links": {
+      "github": "GitHub",
+      "releases": "Releases"
+    }
+  },
+  "language": {
+    "en": "English",
+    "es": "Español",
+    "zh": "中文"
+  }
+}

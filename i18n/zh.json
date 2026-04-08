@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "title": "Kazemi - 您的个人媒体库",
+    "description": "Kazemi - 适用于 iOS 和 macOS 的现代媒体播放器和库管理器。使用美观、直观的界面组织您的视频收藏。"
+  },
+  "nav": {
+    "home": "首页",
+    "features": "功能",
+    "download": "下载",
+    "docs": "文档",
+    "guides": "指南",
+    "support": "支持"
+  },
+  "hero": {
+    "title": "Kazemi",
+    "subtitle": "您的个人媒体库",
+    "kicker": "适用于 iPhone、iPad 和 Mac 的个人视频媒体库",
+    "description": "适用于 iOS 和 macOS 的现代媒体播放器和库管理器。使用美观、直观的界面组织您的个人视频收藏。",
+    "downloadButton": "立即下载",
+    "secondaryButton": "查看指南",
+    "altStore": "可在 AltStore 获取",
+    "note": "为您自己的媒体收藏、本地文件夹和用户管理扩展而设计。",
+    "mockup": {
+      "desktop": {
+        "tabs": {
+          "library": "资料库",
+          "recent": "最近",
+          "history": "历史",
+          "explore": "探索"
+        },
+        "heading": "资料库",
+        "emptyTitle": "属于您个人收藏的空间",
+        "emptyDescription": "家庭视频、旅行记录、活动回忆和已保存下载内容，都能在一个安静自然的界面中整理。"
+      },
+      "phone": {
+        "heading": "资料库",
+        "search": "搜索资料库",
+        "filters": {
+          "all": "全部",
+          "family": "家庭",
+          "travel": "旅行"
+        },
+        "cards": {
+          "wedding": {
+            "title": "安娜和卡洛斯的婚礼",
+            "meta": "活动视频 · 3 个片段",
+            "tags": "家庭 · 庆典"
+          },
+          "birthday": {
+            "title": "爷爷 70 岁生日",
+            "meta": "活动视频 · 5 个片段",
+            "tags": "家庭 · 回忆"
+          },
+          "trip": {
+            "title": "京都夏日之旅",
+            "meta": "旅行相册 · 8 个片段",
+            "tags": "旅行 · 精彩片段"
+          }
+        },
+        "tabbar": {
+          "library": "资料库",
+          "recent": "最近",
+          "history": "历史",
+          "explore": "探索",
+          "settings": "设置"
+        }
+      }
+    }
+  },
+  "story": {
+    "kicker": "为什么选择 Kazemi",
+    "title": "围绕您的收藏构建，而不是别人的平台",
+    "description": "Kazemi 被设计成您媒体内容的真正归宿：干净的浏览体验、精致的播放、本地文件夹、下载，以及在需要更多灵活性时可选的用户管理扩展。",
+    "points": {
+      "ownership": {
+        "title": "真正拥有您的资料库",
+        "description": "将个人视频、档案、课程、电影或导入的目录统一放在一个在 Apple 设备上原生自然的界面中。"
+      },
+      "design": {
+        "title": "像应用，而不是文件浏览器",
+        "description": "封面、元数据、历史记录、字幕和下载都以整洁的界面呈现，而不是原始文件夹和文件名。"
+      },
+      "control": {
+        "title": "需要时依然灵活",
+        "description": "Kazemi 以本地媒体为优先，同时仍支持用户导入 JavaScript 扩展来添加自定义来源和提取器。"
+      }
+    }
+  },
+  "features": {
+    "title": "功能特点",
+    "subtitle": "完美流媒体体验所需的一切",
+    "items": {
+      "local": {
+        "title": "本地媒体库",
+        "description": "将视频文件组织在文件夹中。自动检测条目、片段和字幕。"
+      },
+      "extensions": {
+        "title": "JS 扩展系统",
+        "description": "使用 JavaScript 扩展自定义您的体验。安全、隔离且易于导入。"
+      },
+      "browse": {
+        "title": "浏览和筛选",
+        "description": "按类型、类型等搜索和筛选。每个来源都有自己的目录和筛选器。"
+      },
+      "library": {
+        "title": "个人图书馆",
+        "description": "收藏您喜爱的标题并跟踪您观看的内容。您的图书馆在设备间同步。"
+      },
+      "downloads": {
+        "title": "后台下载",
+        "description": "保存内容以供离线观看。HLS 和 MP4 下载，带进度跟踪。"
+      },
+      "subtitles": {
+        "title": "外部字幕",
+        "description": "VTT 字幕支持，可选择语言。与您的内容完美同步。"
+      },
+      "theme": {
+        "title": "深色/浅色主题",
+        "description": "跟随系统外观。在任何光照条件下都很美观。"
+      },
+      "languages": {
+        "title": "多语言界面",
+        "description": "提供英语、西班牙语和中文。更多语言即将推出。"
+      }
+    }
+  },
+  "download": {
+    "title": "下载 Kazemi",
+    "subtitle": "几分钟内开始使用",
+    "altstore": {
+      "title": "使用 AltStore 安装",
+      "description": "点击下方使用 AltStore 直接安装 Kazemi。",
+      "button": "使用 AltStore 安装"
+    },
+    "ipa": {
+      "title": "手动下载",
+      "description": "下载 IPA 并使用 AltStore、Sideloadly 或任何兼容工具进行侧载。",
+      "button": "下载 IPA"
+    },
+    "requirements": {
+      "title": "系统要求",
+      "items": {
+        "ios": "iOS 16.0 或更高版本",
+        "macos": "macOS 13.0 或更高版本",
+        "altstore": "AltStore 应用（用于 AltStore 安装）"
+      }
+    }
+  },
+  "workflow": {
+    "kicker": "工作方式",
+    "title": "简单、可控的使用流程",
+    "subtitle": "从本地媒体开始，只有在需要时再通过用户管理扩展进行扩展。",
+    "steps": {
+      "pick": {
+        "title": "选择文件夹",
+        "description": "在设备上选择本地文件夹，让 Kazemi 自动整理视频、元数据、封面和字幕。"
+      },
+      "import": {
+        "title": "按需导入",
+        "description": "当您需要额外目录或自定义播放处理时，再手动添加 JavaScript 来源或提取器。"
+      },
+      "watch": {
+        "title": "随时观看",
+        "description": "在线播放或离线观看，保留历史记录，管理下载，并在不离开应用的情况下切换字幕轨道。"
+      }
+    }
+  },
+  "docsTeaser": {
+    "kicker": "文档",
+    "title": "需要扩展语法说明吗？",
+    "description": "完整的 JavaScript 合约现在放在独立的 Docs 区域中，包括来源结构、提取器语法、支持的函数以及实现模式。",
+    "cards": {
+      "sources": {
+        "title": "来源示例",
+        "description": "查看 `SOURCE` 的结构、列表函数、详情、子项和 mirrors。"
+      },
+      "extractors": {
+        "title": "提取器示例",
+        "description": "了解 host 解析器如何声明域名并返回可播放流。"
+      },
+      "patterns": {
+        "title": "实现模式",
+        "description": "查看稳定解析、错误处理和镜像容错的实用模式。"
+      }
+    },
+    "button": "打开文档"
+  },
+  "docsPage": {
+    "kicker": "开发文档",
+    "title": "Kazemi Docs",
+    "subtitle": "JavaScript 来源、提取器与扩展语法",
+    "description": "这里汇总了当前扩展合约、来源构建方式以及实用实现模式。",
+    "primaryCta": "从来源扩展开始",
+    "secondaryCta": "查看示例",
+    "overview": {
+      "kicker": "概览",
+      "title": "Kazemi 扩展如何组织",
+      "subtitle": "来源负责目录与元数据。提取器负责从 host 或 embed 页面解析可播放视频 URL。",
+      "cards": {
+        "sources": {
+          "title": "来源扩展",
+          "description": "来源会暴露 popular、latest、search 等发现函数，然后返回详细条目、子项和 mirrors。"
+        },
+        "extractors": {
+          "title": "提取器扩展",
+          "description": "提取器接收一个 host URL，例如 embed 页面，并将其解析为最终可播放的 MP4 或 HLS 流。"
+        }
+      }
+    },
+    "source": {
+      "kicker": "来源语法",
+      "title": "来源的基本结构",
+      "subtitle": "每个来源都以 `SOURCE` 对象和一组简洁的 async 函数开始。",
+      "cards": {
+        "meta": {
+          "title": "1. 定义 `SOURCE`",
+          "description": "包含稳定元数据，例如 id、name、baseUrl、language、version，以及可选的 iconUrl/contentKind。"
+        },
+        "browse": {
+          "title": "2. 添加浏览函数",
+          "description": "在可用时实现 `fetchPopular`、`fetchLatest` 和 `fetchSearch`，这样应用才能构建列表和搜索结果。"
+        },
+        "detail": {
+          "title": "3. 返回详情和子项",
+          "description": "使用 `fetchItemDetails(id)` 和 `fetchChildren(itemId)` 描述媒体条目及其可播放部分。"
+        }
+      }
+    },
+    "functions": {
+      "kicker": "函数",
+      "title": "当前来源合约",
+      "subtitle": "这些是运行时当前主要期望的函数。",
+      "cards": {
+        "discovery": "返回轻量级媒体条目列表，用于首页分区和搜索结果。",
+        "detail": "使用中性命名返回完整条目及其子项、分段或其他条目。",
+        "video": "返回候选 mirrors 或直接流。提取器可在之后解析这些 URL。"
+      }
+    },
+    "extractors": {
+      "kicker": "提取器语法",
+      "title": "提取器的基本结构",
+      "subtitle": "提取器职责明确：识别支持的域名，并将 host URL 解析成可播放流。"
+    },
+    "footerTagline": "Kazemi 的扩展与集成文档。"
+  },
+  "guides": {
+    "title": "指南",
+    "subtitle": "学习如何充分利用 Kazemi",
+    "items": {
+      "gettingStarted": {
+        "title": "入门指南",
+        "description": "了解 Kazemi 的基础知识并设置您的第一个来源。"
+      },
+      "importing": {
+        "title": "导入扩展",
+        "description": "导入和管理 JavaScript 扩展的逐步指南。"
+      },
+      "localLibrary": {
+        "title": "本地媒体库",
+        "description": "设置您的本地媒体文件夹并组织您的离线内容。"
+      },
+      "downloads": {
+        "title": "下载",
+        "description": "下载内容以供离线观看并管理您的下载。"
+      },
+      "subtitles": {
+        "title": "字幕",
+        "description": "为您的内容配置和管理外部字幕文件。"
+      },
+      "troubleshooting": {
+        "title": "故障排除",
+        "description": "常见问题和解决方案，帮助您重回正轨。"
+      }
+    },
+    "gettingStarted": {
+      "title": "Kazemi 入门指南",
+      "steps": {
+        "install": {
+          "title": "步骤 1：安装 Kazemi",
+          "desc": "从我们的<a href=\"#download\">下载页面</a>下载 Kazemi 并通过 AltStore 或侧载安装。"
+        },
+        "open": {
+          "title": "步骤 2：打开应用",
+          "desc": "从主屏幕启动 Kazemi。首次启动时，应用会请求通知权限（可选）。"
+        },
+        "explore": {
+          "title": "步骤 3：探索界面",
+          "desc": "Kazemi 有 5 个主要标签页：",
+          "tabs": ["来源 - 浏览可用的内容来源", "图书馆 - 您保存的标题和书签", "更新 - 图书馆中的新增内容", "历史记录 - 您的观看历史", "设置 - 应用偏好和扩展"]
+        },
+        "extensions": {
+          "title": "步骤 4：添加扩展",
+          "desc": "前往设置并导入 JavaScript 扩展以添加新的内容来源。详见我们的<a href=\"#importing-extensions\">导入扩展</a>指南。"
+        }
+      }
+    },
+    "importingExtensions": {
+      "title": "导入扩展",
+      "intro": "Kazemi 使用 JavaScript 扩展系统。扩展是普通的 .js 文件，为应用添加新功能。",
+      "types": ["来源扩展 - 浏览不同网站的目录", "提取器扩展 - 从嵌入页面解析视频 URL"],
+      "steps": {
+        "find": {
+          "title": "步骤 1：查找扩展",
+          "desc": "扩展是 .js 文件，可以通过直接下载链接或本地文件共享。"
+        },
+        "settings": {
+          "title": "步骤 2：打开设置",
+          "desc": "在 Kazemi 中，导航到设置标签页并找到扩展部分。"
+        },
+        "import": {
+          "title": "步骤 3：导入",
+          "desc": "选择：",
+          "options": ["从 URL 导入 - 粘贴 .js 文件的直接链接", "从文件导入 - 从您的设备选择 .js 文件"]
+        },
+        "verify": {
+          "title": "步骤 4：验证",
+          "desc": "扩展将被验证并添加到已安装扩展列表。现在可以使用了！"
+        }
+      },
+      "managing": "管理扩展",
+      "managingDesc": "您可以随时从设置菜单禁用或删除扩展。已删除的扩展将从应用中永久删除。"
+    },
+    "localLibrary": {
+      "folderStructure": {
+        "root": "MyMedia/",
+        "wedding": {
+          "folder": "安娜和卡洛斯的婚礼/",
+          "files": ["ceremony.mp4", "party.mp4", "cover.jpg"]
+        },
+        "birthday": {
+          "folder": "50 岁生日/",
+          "files": ["video.mp4"]
+        }
+      },
+      "steps": {
+        "prepare": "步骤 1：准备您的文件夹",
+        "enable": "步骤 2：启用本地媒体库",
+        "select": "步骤 3：选择文件夹",
+        "browse": "步骤 4：浏览"
+      },
+      "enableDesc": "前往设置 → 本地媒体库并打开开关。",
+      "selectDesc": "点击\"选择文件夹\"并导航到您的媒体文件夹。提示时授予权限。",
+      "browseDesc": "您的本地内容将出现在来源标签页下的\"本地\"中。点击浏览和播放！",
+      "infoJson": "可选：info.json",
+      "infoJsonDesc": "在每个媒体文件夹中添加<code>info.json</code>文件以获取标题、简介、标签和年份等元数据。"
+    },
+    "downloads": {
+      "title": "下载",
+      "intro": "使用 Kazemi 内置的下载管理器下载内容以供离线观看。",
+      "steps": {
+        "find": {
+          "title": "步骤 1：查找内容",
+          "desc": "浏览到您要下载的条目。"
+        },
+        "tap": {
+          "title": "步骤 2：点击下载",
+          "desc": "在条目详情页面，点击工具栏中的下载按钮（↓）。"
+        },
+        "quality": {
+          "title": "步骤 3：选择质量",
+          "desc": "选择您喜欢的视频质量和镜像。推荐使用带有提取器图标的下载。"
+        },
+        "monitor": {
+          "title": "步骤 4：监控进度",
+          "desc": "在下载视图中检查下载进度（设置 → 下载）。下载会在后台继续！"
+        }
+      },
+      "managing": "管理下载",
+      "managingItems": ["播放 - 点击已完成的下载以离线播放", "删除 - 左滑或长按以删除下载", "批量下载 - 选择多个条目并一次性下载"]
+    },
+    "subtitles": {
+      "title": "字幕",
+      "intro": "Kazemi 支持您的内容的外部 VTT 字幕文件。",
+      "online": "对于在线内容",
+      "onlineDesc": "许多来源自动提供字幕。可用时，您会在播放器中看到 CC 按钮以切换字幕开/关。",
+      "local": "对于本地内容",
+      "localSteps": {
+        "name": {
+          "title": "步骤 1：命名您的文件",
+          "desc": "将字幕文件命名为与视频文件相同，扩展名为 .vtt："
+        },
+        "place": {
+          "title": "步骤 2：放在同一文件夹",
+          "desc": "将字幕文件与视频放在同一文件夹中。"
+        },
+        "detect": {
+          "title": "步骤 3：自动检测",
+          "desc": "播放视频时，Kazemi 会自动检测并加载匹配的字幕文件。"
+        }
+      },
+      "controls": "字幕控制",
+      "controlsDesc": "播放时，点击 CC 按钮：",
+      "controlsItems": ["启用/禁用字幕", "在可用语言之间切换"]
+    },
+    "troubleshooting": {
+      "title": "故障排除",
+      "intro": "遇到问题？以下是一些常见解决方案。",
+      "wontOpen": {
+        "title": "应用无法打开",
+        "items": ["重启设备", "通过 AltStore 重新安装", "检查开发者证书是否仍然有效"]
+      },
+      "extensionsNotLoading": {
+        "title": "扩展未加载",
+        "items": ["检查 .js 文件语法", "确保扩展遵循 Kazemi 扩展格式", "尝试重新导入扩展"]
+      },
+      "videoWontPlay": {
+        "title": "视频无法播放",
+        "items": ["检查互联网连接", "尝试不同的镜像/来源", "该服务器的提取器可能不可用"]
+      },
+      "downloadsFailing": {
+        "title": "下载失败",
+        "items": ["检查可用存储空间", "确保应用已启用后台应用刷新", "尝试下载不同质量"]
+      },
+      "localLibraryNotScanning": {
+        "title": "本地媒体库未扫描",
+        "items": ["在设置中验证文件夹权限", "检查文件是否为支持的格式（.mp4、.m4v、.mkv、.mov）", "尝试重新选择文件夹"]
+      },
+      "stillHavingIssues": "仍有问题？",
+      "stillHavingIssuesDesc": "访问我们的<a href=\"https://github.com/kazemiapp/Kazemi/issues\" target=\"_blank\">GitHub Issues</a>页面报告错误或请求帮助。"
+    }
+  },
+  "support": {
+    "title": "支持 Kazemi",
+    "subtitle": "帮助我们成长",
+    "description": "您的支持有助于支付开发成本、App Store 发布费用，并将 Kazemi 带到更多平台，包括 Android。",
+    "tiers": {
+      "supporter": {
+        "title": "Supporter / Café ($5)",
+        "description": "您的名字将出现在应用内 Wall of Fame（设置/关于）中，并在 Discord/社区获得专属身份或徽章。"
+      },
+      "betaExplorer": {
+        "title": "Beta Explorer ($10)",
+        "description": "抢先获得 TestFlight 邀请、参与专属投票，并在 TikTok/社交更新中获得鸣谢。"
+      },
+      "featureArchitect": {
+        "title": "Feature Architect ($20)",
+        "description": "功能请求（路线图）优先级最高，并在鸣谢中以特殊图标（皇冠/星标）突出显示。"
+      }
+    },
+    "donateButton": "通过 Ko-fi 捐赠"
+  },
+  "footer": {
+    "copyright": "© 2026 Kazemi. 版权所有。",
+    "links": {
+      "github": "GitHub",
+      "releases": "发布版本"
+    }
+  },
+  "language": {
+    "en": "English",
+    "es": "Español",
+    "zh": "中文"
+  }
+}

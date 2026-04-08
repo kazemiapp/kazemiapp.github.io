@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-base-path="..">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazemi Docs - Extension examples.">
+    <meta name="theme-color" content="#ff7a45">
+    <title>Kazemi Docs - Examples</title>
+    <link rel="icon" type="image/png" href="../Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="./index.html" class="logo">
+                <img src="../Logo.png" alt="Kazemi" class="logo-icon">
+                <span class="logo-text">Kazemi</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="./index.html" data-i18n="nav.docs">Docs</a></li>
+                <li><a href="./sources.html">Sources</a></li>
+                <li><a href="./extractors.html">Extractors</a></li>
+                <li><a href="./examples.html">Examples</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-copy" style="max-width: 860px;">
+                    <span class="eyebrow">Examples</span>
+                    <h1 class="hero-title" style="font-size: clamp(3.2rem, 7vw, 5rem);">Minimal Templates</h1>
+                    <p class="hero-subtitle">Copy and adapt</p>
+                    <p class="hero-description">These minimal templates are intentionally small so new contributors can start quickly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="guides">
+            <div class="container">
+                <div class="story-points">
+                    <article class="story-card">
+                        <h3>Source template</h3>
+                        <p>Includes neutral function names and an end-to-end path from discovery to mirrors.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3>Extractor template</h3>
+                        <p>Includes domains and a direct `extractVideos(url)` implementation shape.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3>Pattern wrappers</h3>
+                        <p>Optional helper wrappers to centralize repeated parsing and keep source files smaller.</p>
+                    </article>
+                </div>
+
+                <div class="modal-content" style="margin-top: 22px;">
+                    <div class="modal-body">
+<pre><code>// Optional helper wrappers
+async function fetchItemMetadata(id) {
+  return fetchItemDetails(id);
+}
+
+async function fetchItemParts(itemId) {
+  return fetchChildren(itemId);
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

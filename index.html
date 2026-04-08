@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" data-base-path=".">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazemi - Your Personal Media Library for iOS & macOS. Organize and play your video collection with a beautiful, intuitive interface.">
+    <meta name="theme-color" content="#ff7a45">
+    <title>Kazemi - Your Personal Media Library</title>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <img src="Logo.png" alt="Kazemi" class="logo-icon">
+                <span class="logo-text">Kazemi</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#features" data-i18n="nav.features">Features</a></li>
+                <li><a href="#download" data-i18n="nav.download">Download</a></li>
+                <li><a href="docs/index.html" data-i18n="nav.docs">Docs</a></li>
+                <li><a href="#guides" data-i18n="nav.guides">Guides</a></li>
+                <li><a href="#support" data-i18n="nav.support">Support</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <div class="language-selector">
+                    <button class="lang-btn" id="langToggle">
+                        <span class="lang-icon">LANG</span>
+                        <span class="lang-current">EN</span>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button data-lang="en">English</button>
+                        <button data-lang="es">Español</button>
+                        <button data-lang="zh">中文</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-orb hero-orb-left"></div>
+            <div class="hero-orb hero-orb-right"></div>
+            <div class="container hero-shell">
+                <div class="hero-copy">
+                    <span class="eyebrow" data-i18n="hero.kicker">Personal video library for iPhone, iPad and Mac</span>
+                    <h1 class="hero-title" data-i18n="hero.title">Kazemi</h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">Your Personal Media Library</p>
+                    <p class="hero-description" data-i18n="hero.description">
+                        A modern media player and library manager for iOS and macOS. Organize your personal video collection with a beautiful, intuitive interface.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#download" class="btn btn-primary" data-i18n="hero.downloadButton">Download Now</a>
+                        <a href="#guides" class="btn btn-secondary" data-i18n="hero.secondaryButton">Explore Guides</a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <span class="meta-pill">iOS 16+</span>
+                        <span class="meta-pill">macOS 13+</span>
+                        <span class="meta-pill" data-i18n="hero.altStore">Available on AltStore</span>
+                    </div>
+
+                    <p class="hero-note" data-i18n="hero.note">
+                        Built for your own media collection, local folders, and user-managed extensions.
+                    </p>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="device-stack">
+                        <div class="desktop-shot">
+                            <div class="desktop-bar">
+                                <div class="desktop-lights">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <strong>Kazemi</strong>
+                            </div>
+                            <div class="desktop-body">
+                                <div class="desktop-tabs">
+                                    <span class="desktop-pill active" data-i18n="hero.mockup.desktop.tabs.library">Library</span>
+                                    <span class="desktop-pill" data-i18n="hero.mockup.desktop.tabs.recent">Recent</span>
+                                    <span class="desktop-pill" data-i18n="hero.mockup.desktop.tabs.history">History</span>
+                                    <span class="desktop-pill" data-i18n="hero.mockup.desktop.tabs.explore">Explore</span>
+                                </div>
+                                <div class="desktop-actions">
+                                    <span class="circle-btn">⇅</span>
+                                    <span class="circle-btn">⌕</span>
+                                </div>
+                                <div class="desktop-heading" data-i18n="hero.mockup.desktop.heading">Library</div>
+                                <div class="desktop-empty">
+                                    <div class="empty-icon">⊞</div>
+                                    <h3 data-i18n="hero.mockup.desktop.emptyTitle">A place for your personal collection</h3>
+                                    <p data-i18n="hero.mockup.desktop.emptyDescription">Home videos, trips, family events and saved downloads in one calm, native interface.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="phone-shot">
+                            <div class="phone-status">
+                                <span>10:43</span>
+                                <span>◔◔◔</span>
+                            </div>
+                            <div class="phone-scroll">
+                                <div class="phone-top-action">⇅</div>
+                                <h3 data-i18n="hero.mockup.phone.heading">Library</h3>
+                                <div class="phone-search" data-i18n="hero.mockup.phone.search">Search your library</div>
+                                <div class="phone-filters">
+                                    <span class="filter-chip active" data-i18n="hero.mockup.phone.filters.all">All</span>
+                                    <span class="filter-chip" data-i18n="hero.mockup.phone.filters.family">Family</span>
+                                    <span class="filter-chip" data-i18n="hero.mockup.phone.filters.travel">Travel</span>
+                                </div>
+
+                                <div class="phone-list">
+                                    <article class="phone-card">
+                                        <div class="poster poster-one"></div>
+                                        <div class="phone-copy">
+                                            <h4 data-i18n="hero.mockup.phone.cards.wedding.title">Ana & Carlos Wedding</h4>
+                                            <p data-i18n="hero.mockup.phone.cards.wedding.meta">Event video · 3 clips</p>
+                                            <span data-i18n="hero.mockup.phone.cards.wedding.tags">Family · Celebration</span>
+                                        </div>
+                                    </article>
+                                    <article class="phone-card">
+                                        <div class="poster poster-two"></div>
+                                        <div class="phone-copy">
+                                            <h4 data-i18n="hero.mockup.phone.cards.birthday.title">Grandpa's 70th Birthday</h4>
+                                            <p data-i18n="hero.mockup.phone.cards.birthday.meta">Event video · 5 clips</p>
+                                            <span data-i18n="hero.mockup.phone.cards.birthday.tags">Family · Memories</span>
+                                        </div>
+                                    </article>
+                                    <article class="phone-card">
+                                        <div class="poster poster-three"></div>
+                                        <div class="phone-copy">
+                                            <h4 data-i18n="hero.mockup.phone.cards.trip.title">Summer Trip to Kyoto</h4>
+                                            <p data-i18n="hero.mockup.phone.cards.trip.meta">Travel album · 8 clips</p>
+                                            <span data-i18n="hero.mockup.phone.cards.trip.tags">Travel · Highlights</span>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+
+                            <div class="phone-tabbar">
+                                <span class="tab-item active" data-i18n="hero.mockup.phone.tabbar.library">Library</span>
+                                <span class="tab-item" data-i18n="hero.mockup.phone.tabbar.recent">Recent</span>
+                                <span class="tab-item" data-i18n="hero.mockup.phone.tabbar.history">History</span>
+                                <span class="tab-item" data-i18n="hero.mockup.phone.tabbar.explore">Explore</span>
+                                <span class="tab-item" data-i18n="hero.mockup.phone.tabbar.settings">Settings</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="story">
+            <div class="container story-grid">
+                <div class="story-intro">
+                    <span class="eyebrow" data-i18n="story.kicker">Why Kazemi</span>
+                    <h2 class="section-title section-title-left" data-i18n="story.title">Built around your collection, not someone else’s platform</h2>
+                    <p class="section-subtitle section-subtitle-left" data-i18n="story.description">
+                        Kazemi is designed to feel like a real home for your media: clean browsing, polished playback, local folders, downloads, and optional user-managed extensions when you need more flexibility.
+                    </p>
+                </div>
+
+                <div class="story-points">
+                    <article class="story-card">
+                        <h3 data-i18n="story.points.ownership.title">Own your library</h3>
+                        <p data-i18n="story.points.ownership.description">Keep personal videos, archives, courses, films, or imported catalogs in one interface that feels native on Apple devices.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3 data-i18n="story.points.design.title">Designed like an app, not a file browser</h3>
+                        <p data-i18n="story.points.design.description">Covers, metadata, history, subtitles, and downloads are presented in a clean interface instead of raw folders and filenames.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3 data-i18n="story.points.control.title">Flexible when you want it</h3>
+                        <p data-i18n="story.points.control.description">Kazemi supports local media first, while still allowing user-imported JavaScript extensions for custom sources and extractors.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow">Highlights</span>
+                    <h2 class="section-title" data-i18n="features.title">Features</h2>
+                    <p class="section-subtitle" data-i18n="features.subtitle">Everything you need for the perfect streaming experience</p>
+                </div>
+
+                <div class="features-grid">
+                    <article class="feature-card feature-card-wide">
+                        <div class="feature-icon">📁</div>
+                        <h3 data-i18n="features.items.local.title">Local Media Library</h3>
+                        <p data-i18n="features.items.local.description">Organize your video files in folders. Auto-detects clips, items, and subtitles.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3 data-i18n="features.items.library.title">Personal Library</h3>
+                        <p data-i18n="features.items.library.description">Bookmark titles and track what you've watched. Your library syncs across devices.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">⬇️</div>
+                        <h3 data-i18n="features.items.downloads.title">Background Downloads</h3>
+                        <p data-i18n="features.items.downloads.description">Save content for offline viewing. HLS and MP4 downloads with progress tracking.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">📝</div>
+                        <h3 data-i18n="features.items.subtitles.title">External Subtitles</h3>
+                        <p data-i18n="features.items.subtitles.description">VTT subtitle support with language selection. Sync perfectly with your content.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🧩</div>
+                        <h3 data-i18n="features.items.extensions.title">JS Extension System</h3>
+                        <p data-i18n="features.items.extensions.description">Customize your experience with JavaScript extensions. Secure, sandboxed, and easy to import.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🌓</div>
+                        <h3 data-i18n="features.items.theme.title">Dark/Light Theme</h3>
+                        <p data-i18n="features.items.theme.description">Follows system appearance. Beautiful in any lighting condition.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3 data-i18n="features.items.languages.title">Multi-language UI</h3>
+                        <p data-i18n="features.items.languages.description">Available in English, Spanish, and Chinese. More languages coming soon.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3 data-i18n="features.items.browse.title">Browse & Filter</h3>
+                        <p data-i18n="features.items.browse.description">Search and filter by genre, type, and more. Each source has its own catalog and filters.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="workflow">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow" data-i18n="workflow.kicker">How it works</span>
+                    <h2 class="section-title" data-i18n="workflow.title">A simple flow that stays under your control</h2>
+                    <p class="section-subtitle" data-i18n="workflow.subtitle">Start with local media, expand with user-managed extensions only if you need them.</p>
+                </div>
+
+                <div class="workflow-grid">
+                    <article class="workflow-card">
+                        <span class="workflow-step">01</span>
+                        <h3 data-i18n="workflow.steps.pick.title">Pick a folder</h3>
+                        <p data-i18n="workflow.steps.pick.description">Select a local folder on your device and let Kazemi organize videos, metadata, covers, and subtitles automatically.</p>
+                    </article>
+                    <article class="workflow-card">
+                        <span class="workflow-step">02</span>
+                        <h3 data-i18n="workflow.steps.import.title">Import what you need</h3>
+                        <p data-i18n="workflow.steps.import.description">Add JavaScript sources or extractors manually when you want additional catalogs or custom playback handling.</p>
+                    </article>
+                    <article class="workflow-card">
+                        <span class="workflow-step">03</span>
+                        <h3 data-i18n="workflow.steps.watch.title">Watch anywhere</h3>
+                        <p data-i18n="workflow.steps.watch.description">Play online or offline, keep history, manage downloads, and switch subtitle tracks without leaving the app.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="story">
+            <div class="container story-grid">
+                <div class="story-intro">
+                    <span class="eyebrow" data-i18n="docsTeaser.kicker">Docs</span>
+                    <h2 class="section-title section-title-left" data-i18n="docsTeaser.title">Need the extension syntax?</h2>
+                    <p class="section-subtitle section-subtitle-left" data-i18n="docsTeaser.description">The full JavaScript contract now lives in a dedicated Docs area, including source structure, extractor syntax, supported functions and implementation patterns.</p>
+                </div>
+
+                <div class="story-points">
+                    <article class="story-card">
+                        <h3 data-i18n="docsTeaser.cards.sources.title">Source examples</h3>
+                        <p data-i18n="docsTeaser.cards.sources.description">See the shape of `SOURCE`, list functions, details, children and mirrors.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3 data-i18n="docsTeaser.cards.extractors.title">Extractor examples</h3>
+                        <p data-i18n="docsTeaser.cards.extractors.description">Understand how host resolvers declare domains and return streams.</p>
+                    </article>
+                    <article class="story-card">
+                        <h3 data-i18n="docsTeaser.cards.patterns.title">Implementation patterns</h3>
+                        <p data-i18n="docsTeaser.cards.patterns.description">Review practical patterns for stable parsing, errors, and resilient mirror handling.</p>
+                    </article>
+                </div>
+            </div>
+            <div class="container" style="margin-top: 24px;">
+                <a href="docs/" class="btn btn-secondary" data-i18n="docsTeaser.button">Open Docs</a>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <div class="container download-shell">
+                <div class="download-copy">
+                    <span class="eyebrow">Get Kazemi</span>
+                    <h2 class="section-title section-title-left" data-i18n="download.title">Download Kazemi</h2>
+                    <p class="section-subtitle section-subtitle-left" data-i18n="download.subtitle">Get started in minutes</p>
+
+                    <div class="requirements">
+                        <h3 data-i18n="download.requirements.title">Requirements</h3>
+                        <ul class="requirements-list">
+                            <li data-i18n="download.requirements.items.ios">iOS 16.0 or later</li>
+                            <li data-i18n="download.requirements.items.macos">macOS 13.0 or later</li>
+                            <li data-i18n="download.requirements.items.altstore">AltStore app (for AltStore installation)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="download-stack">
+                    <article class="download-card featured-card">
+                        <div class="download-icon">⚡</div>
+                        <h3 data-i18n="download.altstore.title">Install with AltStore</h3>
+                        <p data-i18n="download.altstore.description">Click below to install Kazemi directly with AltStore.</p>
+                        <a href="altstore://install?url=https://github.com/kazemiapp/Kazemi/releases/download/v1.0/Kazemi.ipa" class="btn btn-primary">
+                            <span data-i18n="download.altstore.button">Install with AltStore</span>
+                        </a>
+                    </article>
+
+                    <article class="download-card">
+                        <div class="download-icon">📦</div>
+                        <h3 data-i18n="download.ipa.title">Manual Download</h3>
+                        <p data-i18n="download.ipa.description">Download the IPA and sideload using AltStore, Sideloadly, or any compatible tool.</p>
+                        <a href="https://github.com/kazemiapp/Kazemi/releases" target="_blank" class="btn btn-secondary" data-i18n="download.ipa.button">Download IPA</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="guides" class="guides">
+            <div class="container">
+                <div class="section-header">
+                    <span class="eyebrow">Docs</span>
+                    <h2 class="section-title" data-i18n="guides.title">Guides</h2>
+                    <p class="section-subtitle" data-i18n="guides.subtitle">Learn how to get the most out of Kazemi</p>
+                </div>
+
+                <div class="guides-grid">
+                    <a href="#getting-started" class="guide-card">
+                        <div class="guide-icon">🚀</div>
+                        <h3 data-i18n="guides.items.gettingStarted.title">Getting Started</h3>
+                        <p data-i18n="guides.items.gettingStarted.description">Learn the basics of Kazemi and how to set up your first source.</p>
+                    </a>
+                    <a href="#importing-extensions" class="guide-card">
+                        <div class="guide-icon">🧩</div>
+                        <h3 data-i18n="guides.items.importing.title">Importing Extensions</h3>
+                        <p data-i18n="guides.items.importing.description">Step-by-step guide to import and manage JavaScript extensions.</p>
+                    </a>
+                    <a href="#local-library" class="guide-card">
+                        <div class="guide-icon">📁</div>
+                        <h3 data-i18n="guides.items.localLibrary.title">Local Library</h3>
+                        <p data-i18n="guides.items.localLibrary.description">Set up your local media folder and organize your offline content.</p>
+                    </a>
+                    <a href="#downloads" class="guide-card">
+                        <div class="guide-icon">⬇️</div>
+                        <h3 data-i18n="guides.items.downloads.title">Downloads</h3>
+                        <p data-i18n="guides.items.downloads.description">Download content for offline viewing and manage your downloads.</p>
+                    </a>
+                    <a href="#subtitles" class="guide-card">
+                        <div class="guide-icon">📝</div>
+                        <h3 data-i18n="guides.items.subtitles.title">Subtitles</h3>
+                        <p data-i18n="guides.items.subtitles.description">Configure and manage external subtitle files for your content.</p>
+                    </a>
+                    <a href="#troubleshooting" class="guide-card">
+                        <div class="guide-icon">🛠️</div>
+                        <h3 data-i18n="guides.items.troubleshooting.title">Troubleshooting</h3>
+                        <p data-i18n="guides.items.troubleshooting.description">Common issues and solutions to help you get back on track.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div id="guide-modal" class="modal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div class="modal-body" id="modalBody"></div>
+            </div>
+        </div>
+
+        <section id="support" class="support">
+            <div class="container support-shell">
+                <div class="support-copy">
+                    <span class="eyebrow">Support</span>
+                    <h2 class="section-title section-title-left" data-i18n="support.title">Support Kazemi</h2>
+                    <p class="section-subtitle section-subtitle-left" data-i18n="support.subtitle">Help us grow</p>
+                    <p class="support-description" data-i18n="support.description">Your support helps cover development costs, App Store release fees, and brings Kazemi to more platforms including Android.</p>
+                    <a href="https://ko-fi.com/kazemiapp" target="_blank" class="btn btn-primary" data-i18n="support.donateButton">Donate via Ko-fi</a>
+                </div>
+
+                <div class="support-tiers">
+                    <div class="tier-card">
+                        <div class="tier-amount" data-i18n="support.tiers.supporter.title">Supporter / Café ($5)</div>
+                        <p data-i18n="support.tiers.supporter.description">Tu nombre en el Wall of Fame dentro de la app + rol especial en comunidad</p>
+                    </div>
+                    <div class="tier-card">
+                        <div class="tier-amount" data-i18n="support.tiers.betaExplorer.title">Beta Explorer ($10)</div>
+                        <p data-i18n="support.tiers.betaExplorer.description">Acceso a TestFlight + encuestas exclusivas + mención en redes</p>
+                    </div>
+                    <div class="tier-card featured">
+                        <div class="tier-amount" data-i18n="support.tiers.featureArchitect.title">Feature Architect ($20)</div>
+                        <p data-i18n="support.tiers.featureArchitect.description">Prioridad en roadmap + créditos destacados con icono especial</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-shell">
+            <div class="footer-brand">
+                <img src="Logo.png" alt="Kazemi" class="footer-logo">
+                <div>
+                    <span class="footer-text">Kazemi</span>
+                    <p class="footer-tagline">Personal media library for Apple devices</p>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://github.com/kazemiapp/Kazemi" target="_blank" data-i18n="footer.links.github">GitHub</a>
+                <a href="https://github.com/kazemiapp/Kazemi/releases" target="_blank" data-i18n="footer.links.releases">Releases</a>
+            </div>
+        </div>
+        <div class="container">
+            <p class="footer-copyright" data-i18n="footer.copyright">© 2026 Kazemi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
