@@ -18,7 +18,7 @@
     "description": "A modern media player and library manager for iOS and macOS. Organize your personal video collection with a beautiful, intuitive interface.",
     "downloadButton": "Download Now",
     "secondaryButton": "Explore Guides",
-    "altStore": "Available on AltStore",
+    "appStoreSoon": "Coming soon on the App Store",
     "note": "Built for your own media collection, local folders, and user-managed extensions.",
     "mockup": {
       "desktop": {
@@ -126,23 +126,23 @@
   },
   "download": {
     "title": "Download Kazemi",
-    "subtitle": "Get started in minutes",
-    "altstore": {
-      "title": "Install with AltStore",
-      "description": "Click below to install Kazemi directly with AltStore.",
-      "button": "Install with AltStore"
+    "subtitle": "Public release is coming soon",
+    "appstore": {
+      "title": "Coming soon on the App Store",
+      "description": "Kazemi is currently under App Review. Public release will be available very soon.",
+      "button": "Available very soon"
     },
-    "ipa": {
-      "title": "Manual Download",
-      "description": "Download the IPA and sideload using AltStore, Sideloadly, or any compatible tool.",
-      "button": "Download IPA"
+    "status": {
+      "title": "Review status",
+      "description": "We are finalizing App Store requirements, including privacy and subscription metadata.",
+      "button": "Official App Store release"
     },
     "requirements": {
       "title": "Requirements",
       "items": {
         "ios": "iOS 16.0 or later",
         "macos": "macOS 13.0 or later",
-        "altstore": "AltStore app (for AltStore installation)"
+        "appstore": "App Store release pending approval"
       }
     }
   },
@@ -277,7 +277,7 @@
       "steps": {
         "install": {
           "title": "Step 1: Install Kazemi",
-          "desc": "Download Kazemi from our <a href=\"#download\">Download section</a> and install it via AltStore or sideloading."
+          "desc": "Kazemi will be available on the App Store very soon. Check our <a href=\"#download\">Download section</a> for the latest status."
         },
         "open": {
           "title": "Step 2: Open the App",
@@ -397,7 +397,7 @@
       "intro": "Having issues? Here are some common solutions.",
       "wontOpen": {
         "title": "App Won't Open",
-        "items": ["Restart your device", "Reinstall via AltStore", "Check if your developer certificate is still valid"]
+        "items": ["Restart your device", "Reinstall from the App Store when available", "Update to the latest version"]
       },
       "extensionsNotLoading": {
         "title": "Extensions Not Loading",
@@ -419,31 +419,12 @@
       "stillHavingIssuesDesc": "Visit our <a href=\"https://github.com/kazemiapp/Kazemi/issues\" target=\"_blank\">GitHub Issues</a> page to report bugs or request help."
     }
   },
-  "support": {
-    "title": "Support Kazemi",
-    "subtitle": "Help us grow",
-    "description": "Your support helps cover development costs, App Store release fees, and brings Kazemi to more platforms including Android.",
-    "tiers": {
-      "supporter": {
-        "title": "Supporter / Café ($5)",
-        "description": "Your name in the in-app Wall of Fame (Settings/About) plus a special role or badge in Discord/community."
-      },
-      "betaExplorer": {
-        "title": "Beta Explorer ($10)",
-        "description": "Direct TestFlight invite before everyone else, exclusive polls, and a shoutout on TikTok/social updates."
-      },
-      "featureArchitect": {
-        "title": "Feature Architect ($20)",
-        "description": "Top priority in feature requests (roadmap) and highlighted credits with a special icon (crown/star)."
-      }
-    },
-    "donateButton": "Donate via Ko-fi"
-  },
   "footer": {
     "copyright": "© 2026 Kazemi. All rights reserved.",
     "links": {
       "github": "GitHub",
-      "releases": "Releases"
+      "releases": "Releases",
+      "terms": "Terms of Use"
     }
   },
   "language": {

@@ -18,7 +18,7 @@
     "description": "适用于 iOS 和 macOS 的现代媒体播放器和库管理器。使用美观、直观的界面组织您的个人视频收藏。",
     "downloadButton": "立即下载",
     "secondaryButton": "查看指南",
-    "altStore": "可在 AltStore 获取",
+    "appStoreSoon": "即将在 App Store 上线",
     "note": "为您自己的媒体收藏、本地文件夹和用户管理扩展而设计。",
     "mockup": {
       "desktop": {
@@ -126,23 +126,23 @@
   },
   "download": {
     "title": "下载 Kazemi",
-    "subtitle": "几分钟内开始使用",
-    "altstore": {
-      "title": "使用 AltStore 安装",
-      "description": "点击下方使用 AltStore 直接安装 Kazemi。",
-      "button": "使用 AltStore 安装"
+    "subtitle": "即将公开发布",
+    "appstore": {
+      "title": "即将在 App Store 上线",
+      "description": "Kazemi 正在进行 App Review，公开版本很快可用。",
+      "button": "即将可用"
     },
-    "ipa": {
-      "title": "手动下载",
-      "description": "下载 IPA 并使用 AltStore、Sideloadly 或任何兼容工具进行侧载。",
-      "button": "下载 IPA"
+    "status": {
+      "title": "审核状态",
+      "description": "我们正在完成 App Store 要求，包括隐私与订阅元数据。",
+      "button": "无需侧载"
     },
     "requirements": {
       "title": "系统要求",
       "items": {
         "ios": "iOS 16.0 或更高版本",
         "macos": "macOS 13.0 或更高版本",
-        "altstore": "AltStore 应用（用于 AltStore 安装）"
+        "appstore": "App Store 发布待审核通过"
       }
     }
   },
@@ -277,7 +277,7 @@
       "steps": {
         "install": {
           "title": "步骤 1：安装 Kazemi",
-          "desc": "从我们的<a href=\"#download\">下载页面</a>下载 Kazemi 并通过 AltStore 或侧载安装。"
+          "desc": "Kazemi 即将在 App Store 上线。请查看<a href=\"#download\">下载页面</a>获取最新状态。"
         },
         "open": {
           "title": "步骤 2：打开应用",
@@ -397,7 +397,7 @@
       "intro": "遇到问题？以下是一些常见解决方案。",
       "wontOpen": {
         "title": "应用无法打开",
-        "items": ["重启设备", "通过 AltStore 重新安装", "检查开发者证书是否仍然有效"]
+        "items": ["重启设备", "上线后请从 App Store 重新安装", "更新到最新版本"]
       },
       "extensionsNotLoading": {
         "title": "扩展未加载",
@@ -419,31 +419,12 @@
       "stillHavingIssuesDesc": "访问我们的<a href=\"https://github.com/kazemiapp/Kazemi/issues\" target=\"_blank\">GitHub Issues</a>页面报告错误或请求帮助。"
     }
   },
-  "support": {
-    "title": "支持 Kazemi",
-    "subtitle": "帮助我们成长",
-    "description": "您的支持有助于支付开发成本、App Store 发布费用，并将 Kazemi 带到更多平台，包括 Android。",
-    "tiers": {
-      "supporter": {
-        "title": "Supporter / Café ($5)",
-        "description": "您的名字将出现在应用内 Wall of Fame（设置/关于）中，并在 Discord/社区获得专属身份或徽章。"
-      },
-      "betaExplorer": {
-        "title": "Beta Explorer ($10)",
-        "description": "抢先获得 TestFlight 邀请、参与专属投票，并在 TikTok/社交更新中获得鸣谢。"
-      },
-      "featureArchitect": {
-        "title": "Feature Architect ($20)",
-        "description": "功能请求（路线图）优先级最高，并在鸣谢中以特殊图标（皇冠/星标）突出显示。"
-      }
-    },
-    "donateButton": "通过 Ko-fi 捐赠"
-  },
   "footer": {
     "copyright": "© 2026 Kazemi. 版权所有。",
     "links": {
       "github": "GitHub",
-      "releases": "发布版本"
+      "releases": "发布版本",
+      "terms": "使用条款"
     }
   },
   "language": {

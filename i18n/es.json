@@ -18,7 +18,7 @@
     "description": "Un reproductor de medios y gestor de biblioteca moderno para iOS y macOS. Organiza tu colección de videos personal con una interfaz hermosa e intuitiva.",
     "downloadButton": "Descargar Ahora",
     "secondaryButton": "Explorar Guías",
-    "altStore": "Disponible en AltStore",
+    "appStoreSoon": "Muy pronto en App Store",
     "note": "Diseñado para tu propia colección, carpetas locales y extensiones gestionadas por el usuario.",
     "mockup": {
       "desktop": {
@@ -126,23 +126,23 @@
   },
   "download": {
     "title": "Descargar Kazemi",
-    "subtitle": "Comienza en minutos",
-    "altstore": {
-      "title": "Instalar con AltStore",
-      "description": "Haz clic abajo para instalar Kazemi directamente con AltStore.",
-      "button": "Instalar con AltStore"
+    "subtitle": "Lanzamiento inminente",
+    "appstore": {
+      "title": "Muy pronto en App Store",
+      "description": "Kazemi está actualmente en proceso de App Review. El lanzamiento público estará disponible muy pronto.",
+      "button": "Disponible muy pronto"
     },
-    "ipa": {
-      "title": "Descarga Manual",
-      "description": "Descarga el IPA y usa sideloading con AltStore, Sideloadly, o cualquier herramienta compatible.",
-      "button": "Descargar IPA"
+    "status": {
+      "title": "Estado de revisión",
+      "description": "Estamos finalizando requisitos de App Store, incluyendo privacidad y metadatos de suscripción.",
+      "button": "Lanzamiento oficial en App Store"
     },
     "requirements": {
       "title": "Requisitos",
       "items": {
         "ios": "iOS 16.0 o posterior",
         "macos": "macOS 13.0 o posterior",
-        "altstore": "App AltStore (para instalación vía AltStore)"
+        "appstore": "Publicación en App Store pendiente de aprobación"
       }
     }
   },
@@ -277,7 +277,7 @@
       "steps": {
         "install": {
           "title": "Paso 1: Instalar Kazemi",
-          "desc": "Descarga Kazemi desde nuestra <a href=\"#download\">sección de Descargas</a> e instálalo vía AltStore o sideloading."
+          "desc": "Kazemi estará disponible muy pronto en App Store. Consulta nuestra <a href=\"#download\">sección de Descarga</a> para el estado más reciente."
         },
         "open": {
           "title": "Paso 2: Abrir la App",
@@ -396,7 +396,7 @@
       "intro": "¿Tienes problemas? Aquí tienes algunas soluciones comunes.",
       "wontOpen": {
         "title": "La App No Se Abre",
-        "items": ["Reinicia tu dispositivo", "Reinstala vía AltStore", "Comprueba si tu certificado de desarrollador sigue siendo válido"]
+        "items": ["Reinicia tu dispositivo", "Reinstala desde App Store cuando esté disponible", "Actualiza a la versión más reciente"]
       },
       "extensionsNotLoading": {
         "title": "Las Extensiones No Se Cargan",
@@ -418,31 +418,12 @@
       "stillHavingIssuesDesc": "Visita nuestra <a href=\"https://github.com/kazemiapp/Kazemi/issues\" target=\"_blank\">GitHub Issues</a> para reportar errores o solicitar ayuda."
     }
   },
-  "support": {
-    "title": "Soporta Kazemi",
-    "subtitle": "Ayúdanos a crecer",
-    "description": "Tu soporte ayuda a cubrir los costos de desarrollo, las tarifas de lanzamiento en App Store, y lleva Kazemi a más plataformas incluyendo Android.",
-    "tiers": {
-      "supporter": {
-        "title": "Supporter / Café ($5)",
-        "description": "Tu nombre en el Wall of Fame dentro de la app (Ajustes/Acerca de) y rol o badge especial en Discord/comunidad."
-      },
-      "betaExplorer": {
-        "title": "Beta Explorer ($10)",
-        "description": "Invitación directa a TestFlight antes que nadie, encuestas exclusivas y mención en TikTok/redes."
-      },
-      "featureArchitect": {
-        "title": "Feature Architect ($20)",
-        "description": "Prioridad en Feature Requests (Roadmap) y créditos destacados con icono especial (corona/estrella)."
-      }
-    },
-    "donateButton": "Donar vía Ko-fi"
-  },
   "footer": {
     "copyright": "© 2026 Kazemi. Todos los derechos reservados.",
     "links": {
       "github": "GitHub",
-      "releases": "Releases"
+      "releases": "Releases",
+      "terms": "Términos de uso"
     }
   },
   "language": {

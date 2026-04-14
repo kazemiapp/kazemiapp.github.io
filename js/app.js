@@ -32,7 +32,7 @@ const guideContent = {
                 
                 <div class="step">
                     <div class="step-number">${steps.install?.title || 'Step 1: Install Kazemi'}</div>
-                    <p>${steps.install?.desc || 'Download Kazemi from our <a href="#download">Download section</a> and install it via AltStore or sideloading.'}</p>
+                    <p>${steps.install?.desc || 'Kazemi will be available on the App Store very soon. Check our <a href="#download">Download section</a> for the latest status.'}</p>
                 </div>
                 
                 <div class="step">
@@ -245,7 +245,7 @@ ep1.vtt</code></pre>
                 <p>${t?.intro || 'Having issues? Here are some common solutions.'}</p>
                 
                 <h3>${t?.wontOpen?.title || 'App Won\'t Open'}</h3>
-                <ul>${wontOpenItems || '<li>Restart your device</li><li>Reinstall via AltStore</li><li>Check certificate</li>'}</ul>
+                <ul>${wontOpenItems || '<li>Restart your device</li><li>Reinstall from the App Store when available</li><li>Update to the latest version</li>'}</ul>
                 
                 <h3>${t?.extensionsNotLoading?.title || 'Extensions Not Loading'}</h3>
                 <ul>${extItems || '<li>Check .js syntax</li><li>Verify format</li><li>Re-import</li>'}</ul>
