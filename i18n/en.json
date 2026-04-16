@@ -18,7 +18,7 @@
     "description": "A modern media player and library manager for iOS and macOS. Organize your personal video collection with a beautiful, intuitive interface.",
     "downloadButton": "Download Now",
     "secondaryButton": "Explore Guides",
-    "appStoreSoon": "Coming soon on the App Store",
+    "appStoreSoon": "Now on the App Store",
     "note": "Built for your own media collection, local folders, and user-managed extensions.",
     "mockup": {
       "desktop": {
@@ -126,23 +126,23 @@
   },
   "download": {
     "title": "Download Kazemi",
-    "subtitle": "Public release is coming soon",
+    "subtitle": "Download it today from the App Store",
     "appstore": {
-      "title": "Coming soon on the App Store",
-      "description": "Kazemi is currently under App Review. Public release will be available very soon.",
-      "button": "Available very soon"
+      "title": "Now on the App Store",
+      "description": "Kazemi is now available for iPhone, iPad, and Mac on the App Store.",
+      "button": "Download on the App Store"
     },
     "status": {
-      "title": "Review status",
-      "description": "We are finalizing App Store requirements, including privacy and subscription metadata.",
-      "button": "Official App Store release"
+      "title": "Official release",
+      "description": "Live on the App Store. New updates and improvements are released there.",
+      "button": "Open App Store listing"
     },
     "requirements": {
       "title": "Requirements",
       "items": {
         "ios": "iOS 16.0 or later",
         "macos": "macOS 13.0 or later",
-        "appstore": "App Store release pending approval"
+        "appstore": "Available on the App Store"
       }
     }
   },
@@ -277,7 +277,7 @@
       "steps": {
         "install": {
           "title": "Step 1: Install Kazemi",
-          "desc": "Kazemi will be available on the App Store very soon. Check our <a href=\"#download\">Download section</a> for the latest status."
+          "desc": "Kazemi is now available on the App Store. Visit our <a href=\"#download\">Download section</a> for the direct link."
         },
         "open": {
           "title": "Step 2: Open the App",
@@ -397,7 +397,7 @@
       "intro": "Having issues? Here are some common solutions.",
       "wontOpen": {
         "title": "App Won't Open",
-        "items": ["Restart your device", "Reinstall from the App Store when available", "Update to the latest version"]
+        "items": ["Restart your device", "Reinstall from the App Store", "Update to the latest version"]
       },
       "extensionsNotLoading": {
         "title": "Extensions Not Loading",

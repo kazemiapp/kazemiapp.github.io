@@ -18,7 +18,7 @@
     "description": "Un reproductor de medios y gestor de biblioteca moderno para iOS y macOS. Organiza tu colección de videos personal con una interfaz hermosa e intuitiva.",
     "downloadButton": "Descargar Ahora",
     "secondaryButton": "Explorar Guías",
-    "appStoreSoon": "Muy pronto en App Store",
+    "appStoreSoon": "Ya disponible en App Store",
     "note": "Diseñado para tu propia colección, carpetas locales y extensiones gestionadas por el usuario.",
     "mockup": {
       "desktop": {
@@ -126,23 +126,23 @@
   },
   "download": {
     "title": "Descargar Kazemi",
-    "subtitle": "Lanzamiento inminente",
+    "subtitle": "Descárgala hoy desde App Store",
     "appstore": {
-      "title": "Muy pronto en App Store",
-      "description": "Kazemi está actualmente en proceso de App Review. El lanzamiento público estará disponible muy pronto.",
-      "button": "Disponible muy pronto"
+      "title": "Ya disponible en App Store",
+      "description": "Kazemi ya está disponible para iPhone, iPad y Mac en App Store.",
+      "button": "Descargar en App Store"
     },
     "status": {
-      "title": "Estado de revisión",
-      "description": "Estamos finalizando requisitos de App Store, incluyendo privacidad y metadatos de suscripción.",
-      "button": "Lanzamiento oficial en App Store"
+      "title": "Lanzamiento oficial",
+      "description": "Ya está en App Store. Las nuevas actualizaciones y mejoras se publican ahí.",
+      "button": "Abrir ficha en App Store"
     },
     "requirements": {
       "title": "Requisitos",
       "items": {
         "ios": "iOS 16.0 o posterior",
         "macos": "macOS 13.0 o posterior",
-        "appstore": "Publicación en App Store pendiente de aprobación"
+        "appstore": "Disponible en App Store"
       }
     }
   },
@@ -277,7 +277,7 @@
       "steps": {
         "install": {
           "title": "Paso 1: Instalar Kazemi",
-          "desc": "Kazemi estará disponible muy pronto en App Store. Consulta nuestra <a href=\"#download\">sección de Descarga</a> para el estado más reciente."
+          "desc": "Kazemi ya está disponible en App Store. Consulta nuestra <a href=\"#download\">sección de Descarga</a> para el enlace directo."
         },
         "open": {
           "title": "Paso 2: Abrir la App",
@@ -396,7 +396,7 @@
       "intro": "¿Tienes problemas? Aquí tienes algunas soluciones comunes.",
       "wontOpen": {
         "title": "La App No Se Abre",
-        "items": ["Reinicia tu dispositivo", "Reinstala desde App Store cuando esté disponible", "Actualiza a la versión más reciente"]
+        "items": ["Reinicia tu dispositivo", "Reinstala desde App Store", "Actualiza a la versión más reciente"]
       },
       "extensionsNotLoading": {
         "title": "Las Extensiones No Se Cargan",

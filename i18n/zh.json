@@ -18,7 +18,7 @@
     "description": "适用于 iOS 和 macOS 的现代媒体播放器和库管理器。使用美观、直观的界面组织您的个人视频收藏。",
     "downloadButton": "立即下载",
     "secondaryButton": "查看指南",
-    "appStoreSoon": "即将在 App Store 上线",
+    "appStoreSoon": "现已在 App Store 上线",
     "note": "为您自己的媒体收藏、本地文件夹和用户管理扩展而设计。",
     "mockup": {
       "desktop": {
@@ -126,23 +126,23 @@
   },
   "download": {
     "title": "下载 Kazemi",
-    "subtitle": "即将公开发布",
+    "subtitle": "今天即可在 App Store 下载",
     "appstore": {
-      "title": "即将在 App Store 上线",
-      "description": "Kazemi 正在进行 App Review，公开版本很快可用。",
-      "button": "即将可用"
+      "title": "现已在 App Store 上线",
+      "description": "Kazemi 现已在 App Store 上架，支持 iPhone、iPad 和 Mac。",
+      "button": "前往 App Store 下载"
     },
     "status": {
-      "title": "审核状态",
-      "description": "我们正在完成 App Store 要求，包括隐私与订阅元数据。",
-      "button": "无需侧载"
+      "title": "正式发布",
+      "description": "现已在 App Store 上线，后续更新与改进也会在这里发布。",
+      "button": "打开 App Store 页面"
     },
     "requirements": {
       "title": "系统要求",
       "items": {
         "ios": "iOS 16.0 或更高版本",
         "macos": "macOS 13.0 或更高版本",
-        "appstore": "App Store 发布待审核通过"
+        "appstore": "已在 App Store 上线"
       }
     }
   },
@@ -277,7 +277,7 @@
       "steps": {
         "install": {
           "title": "步骤 1：安装 Kazemi",
-          "desc": "Kazemi 即将在 App Store 上线。请查看<a href=\"#download\">下载页面</a>获取最新状态。"
+          "desc": "Kazemi 现已在 App Store 上线。请查看<a href=\"#download\">下载页面</a>获取直达链接。"
         },
         "open": {
           "title": "步骤 2：打开应用",
@@ -397,7 +397,7 @@
       "intro": "遇到问题？以下是一些常见解决方案。",
       "wontOpen": {
         "title": "应用无法打开",
-        "items": ["重启设备", "上线后请从 App Store 重新安装", "更新到最新版本"]
+        "items": ["重启设备", "从 App Store 重新安装", "更新到最新版本"]
       },
       "extensionsNotLoading": {
         "title": "扩展未加载",
